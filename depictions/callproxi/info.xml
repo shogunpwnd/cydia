@@ -1,0 +1,29 @@
+<package>
+	<id>bash_4.4_iphoneos-arm</id>
+	<name>bash</name>
+	<version>4.4</version>
+	<compatibility>
+		<firmware>
+			<maxiOS>11.0</maxiOS>
+			<otherVersions>unsupported</otherVersions>
+			<!--
+			for otherVersions, you can put either unsupported or unconfirmed
+			-->
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>grep</package>
+		<package>ncurses</package>
+		<package>sed</package>
+		<package>cy+cpu.arm64</package>
+		</dependencies>
+	<descriptionlist>
+		<description>the best shell ever written by Brian Fox</description>
+	</descriptionlist>
+	<screenshots></screenshots>
+	<changelog>
+		<version>4.4</version>
+		<change>New release</change>
+	</changelog>
+	<links></links>
+</package>
